@@ -1,0 +1,43 @@
+.header {
+    width: min(1180px, calc(100% - 48px));
+    margin: 0 auto;
+    padding: 24px 0 18px 0;
+    border-bottom: 1px solid #d8d8d2;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: inline-block;
+    font-size: 1.75rem;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+}
+
+.logo span {
+    color: var(--brand-color);
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.menu a {
+    color: #555;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: 0.15s ease;
+}
+
+.menu a:hover {
+    color: var(--brand-color);
+}
+
+.tema{
+    max-width: 1.25rem;
+    max-height: 1.25rem;
+}

@@ -48,50 +48,6 @@ img {
     max-width: 100%;
 }
 
-.header {
-    width: min(1180px, calc(100% - 48px));
-    margin: 0 auto;
-    padding: 24px 0 18px 0;
-    border-bottom: 1px solid #d8d8d2;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.logo {
-    display: inline-block;
-    font-size: 1.75rem;
-    font-weight: 900;
-    letter-spacing: -0.04em;
-}
-
-.logo span {
-    color: var(--brand-color);
-}
-
-.menu {
-    display: flex;
-    gap: 15px;
-}
-
-.menu a {
-    color: #555;
-    font-size: 0.95rem;
-    font-weight: 600;
-    transition: 0.15s ease;
-}
-
-.menu a:hover {
-    color: var(--brand-color);
-}
-
-.tema{
-    max-width: 1.25rem;
-    max-height: 1.25rem;
-}
-
 .hero {
     width: min(1180px, calc(100% - 48px));
     min-height: 610px;
@@ -102,21 +58,6 @@ img {
     justify-content: space-between;
     align-items: center;
     gap: 15%;
-    /*
-        DESAFIO 2
-
-        Queremos:
-        - texto e imagem lado a lado;
-        - ambos centralizados verticalmente;
-        - espaço entre os blocos.
-
-        Complete utilizando Flexbox.
-    */
-
-    /* display: ; */
-    /* align-items: ; */
-    /* justify-content: ; */
-    /* gap: ; */
 }
 
 .heroContent {
@@ -152,3 +93,33 @@ img {
     color: #606060;
     font-size: 1.05rem;
 }
+
+.button {
+    display: inline-block;
+    padding: 15px 22px;
+    border-radius: 999px;
+    background: #171717;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    background: var(--brand-color);
+}
+
+.heroImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111111;
+    width: 50%;
+    border-radius: 6%;
+}
+
+.imgFimaai{
+    max-width: 50%;
+    max-height: 35%;
+}
+

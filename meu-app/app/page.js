@@ -1,52 +1,27 @@
 'use client'
 
-import styles from "./css/index.css";
+import Relogio from "./components/relogio";
+import Nome from "./components/nome"
+import Headering from "./components/header";
+import SectionHero from "./components/sectionHero";
+import SectionHeading from "./components/sectionHeading";
+import Projects from "./components/projects";
 
 
 export default function Home() {
   return (
     <>
-      <header className="header">
-        <a className="logo" href="#">
-            FILMA<span>.AI</span>
-        </a>
-
-        <nav className="menu">
-            <a className="tema" href="#tema"><img src="/public/tema.png" alt="tema"/></a>
-            <a href="#inicio">Início</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#contato">Contato</a>
-        </nav>
-    </header>
+    <Headering/>
 
     <main>
 
-       <section className="hero" id="inicio">
+        <SectionHero/>
 
-            <div className="heroContent">
-                <span className="eyebrow">FRONT-END DESIGN</span>
+        <section className="section" id="projetos">
 
-                <h1>
-                    Facilitando experiências
-                    <strong>universitárias.</strong>
-                </h1>
-
-                <p>
-                    Transcrições, digitalização e converções para PDF, agilizando a sua vida.
-                </p>
-
-                <a className="button" href="#projetos">
-                    Conheça nossos projetos
-                </a>
-            </div>
-
-            <div className="heroImage">
-                <img className="imgFimaai" src="/public/logoFilmaAi.png" alt="filmaai"/>
-            </div>
-
+            <SectionHeading/>
+            <Projects/>
         </section>
-
     </main>
     </>
   );
