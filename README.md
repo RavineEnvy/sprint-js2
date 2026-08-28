@@ -29,7 +29,7 @@ Projeto web desenvolvido como parte da avaliação para a Sprint 03.
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/RavineEnvy/sprint-js2.git
+git clone https://github.com/RavineEnvy/sprint-js3.git
 ```
 
 ### 2. Acessar a pasta do projeto
@@ -37,7 +37,7 @@ git clone https://github.com/RavineEnvy/sprint-js2.git
 No terminal, execute:
 
 ```bash
-cd sprint-js2
+cd meu-app
 ```
 
 ### 3. Instalar as dependências
