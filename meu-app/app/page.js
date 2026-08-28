@@ -1,28 +1,31 @@
 'use client'
 
-import Relogio from "./components/relogio";
-import Nome from "./components/nome"
-import Headering from "./components/header";
+
+import Header from "./components/header";
 import SectionHero from "./components/sectionHero";
 import SectionHeading from "./components/sectionHeading";
-import Projects from "./components/projects";
+import Footer from "./components/footer"
+import NumeroAleatorio from "./components/numeroAleatorio";
+import LogicaComJS from "./components/tituloLogica"
 
 
 export default function Home() {
+
+  const dadosSimulador = {
+    titulo: "Simulador Instantâneo de Processamento",
+    precoPorMinuto: 2.50
+  };
   return (
     <>
-    <Headering/>
+    <Header/>
 
     <main>
-
         <SectionHero/>
-
-        <section className="section" id="projetos">
-
-            <SectionHeading/>
-            <Projects/>
-        </section>
+        <SectionHeading/>
+        <LogicaComJS/>
+        <NumeroAleatorio titulo="Sorteador de Números" minPadrao={1} maxPadrao={100} />
     </main>
+    <Footer/>
     </>
   );
 }
