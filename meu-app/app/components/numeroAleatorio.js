@@ -45,7 +45,7 @@ export default function GeradorAleatorio({ titulo, minPadrao = 1, maxPadrao = 10
     <section className="section">
       <div className="cardProcesso">
         <h3>{titulo}</h3>
-        <p>Defina um intervalo e gere um número aleatório para sorteios ou testes.</p>
+        <p>Escolha um número aleatório para sortear.</p>
 
         <div className="calculadora">
           <label htmlFor="minInput">Mínimo:</label>
